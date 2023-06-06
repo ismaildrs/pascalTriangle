@@ -15,7 +15,7 @@ void showMatrix(int **tab, int x){
 		}
 		printf("\n");
 	}
-}//
+}//this is function is used to show pascal's matrix
 int** trianglePascal(int x){
 	int **tab, i, j;
 	tab = (int**)malloc(sizeof(int*)*x);
@@ -36,7 +36,7 @@ int** trianglePascal(int x){
 		}
 	}
 	return tab;
-}
+}//this function is used to make pascal's matrix
 main(){	
 	int **tab, i, j, x = 5;
 	tab = trianglePascal(x);
